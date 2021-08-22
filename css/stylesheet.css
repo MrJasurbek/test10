@@ -1,0 +1,33 @@
+/* body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;justify-content: center;
+    background: url("https://picsum.photos/seed/picsum/200/300");
+    background-position:calc(50vw - 850px) 0 ;
+    background-repeat: no-repeat;
+    
+}
+ */
+
+ body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;justify-content: center;
+
+ }
+
+ section::before{
+background:url("https://picsum.photos/200/300?grayscale");
+background-size: 200px 300px;
+width: 200px;
+height: 300px;
+display: inline-block;
+content: "";
+position: absolute;
+left: -900px;
+ }
+
+ section{
+     position: relative;
+     
+ }

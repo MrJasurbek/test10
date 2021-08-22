@@ -26,10 +26,17 @@ height: 300px;
 display: inline-block;
 content: "";
 position: absolute;
-left: -900px;
+left: -100px;
  }
 
  section{
      position: relative;
      
+ }
+
+ @media  only screen and (max-width:1600px) {
+     body{
+         overflow: hidden; 
+     }
+      
  }
